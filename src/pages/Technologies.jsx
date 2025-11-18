@@ -5,7 +5,6 @@ import CommonHead from "../components/CommonHead";
 import ContactForm from "../components/ContactForm";
 import symfony from "../assets/images/symfony.webp";
 import reactlogo from "../assets/images/reactlogo.webp";
-import python from "../assets/images/python.webp";
 import js from "../assets/images/js.webp";
 import elogo from "../assets/images/elogo.webp";
 import css from "../assets/images/css.webp";
