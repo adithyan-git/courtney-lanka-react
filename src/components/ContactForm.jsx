@@ -20,7 +20,7 @@ const ContactForm = () => {
             <div className="mb-10">
               <h5
                 data-aos="fade-up"
-                className="max-[448px]:leading-[35px] font-[Poppins] max-[448px]:text-[25px] max-[640px]:text-[30px] font-semibold 2xl:text-[46px] 2xl:max-w-[526px] text-[40px] max-[640px]:leading-[45px] leading-[50px] max-w-[460px] w-full  text-[#16205F]"
+                className="max-[448px]:leading-[35px] font-[Poppins] max-[448px]:text-[25px] max-[640px]:text-[30px] font-semibold  text-[40px] max-[640px]:leading-[45px] leading-[50px] max-w-[460px] w-full  text-[#16205F]"
               >
                 Connect With Your Next Great Hire Today!
               </h5>
@@ -62,7 +62,7 @@ const ContactForm = () => {
                     <label
                       htmlFor=""
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
+                      className="font-[Poppins] font-semibold  max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
                     >
                       Phone Number
                     </label>
@@ -76,7 +76,7 @@ const ContactForm = () => {
                     <label
                       htmlFor=""
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
+                      className="font-[Poppins] font-semibold  max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
                     >
                       Email
                     </label>
@@ -92,7 +92,7 @@ const ContactForm = () => {
                     <label
                       htmlFor=""
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
+                      className="font-[Poppins] font-semibold  max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
                     >
                       Project Detail
                     </label>
@@ -108,14 +108,14 @@ const ContactForm = () => {
                   <input type="checkbox" className="w-[18px] h-[18px]" />
                   <p
                     data-aos="fade-up"
-                    className="font-[Poppins] font-normal 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#16205F]"
+                    className="font-[Poppins] font-normal  max-[640px]:text-[14px] text-[15px] text-[#16205F]"
                   >
                     By sending this form I confirm that I have read and accept
                     the <span className="font-semibold">Privacy Policy</span>
                   </p>
                 </div>
                 <Link className="max-[448px]:w-full mt-5 gap-5 w-[250px] h-[54px] flex items-center  justify-center bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-[linear-gradient(to_right,#FCB81F,#ED7901)] rounded-lg">
-                  <p className="font-[Poppins] max-[448px]:text-[13px] font-semibold 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#FFFFFF]">
+                  <p className="font-[Poppins] max-[448px]:text-[13px] font-semibold  max-[640px]:text-[14px] text-[15px] text-[#FFFFFF]">
                     GET CONSULTATION
                   </p>
                   <FaArrowRight className="text-white" />

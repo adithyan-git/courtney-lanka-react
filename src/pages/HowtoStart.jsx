@@ -103,7 +103,7 @@ const HowtoStart = () => {
             <div className="mb-[87px] max-[640px]:mb-7">
               <h5
                 data-aos="fade-up"
-                className="font-[Poppins] font-semibold max-[640px]:text-[30px] max-[448px]:text-[25px] max-[640px]:leading-8 text-[40px] 2xl:text-[46px] 2xl:leading-[58px] leading-[45px] text-[#16205F] max-w-[609px] w-full  "
+                className="font-[Poppins] font-semibold max-[640px]:text-[30px] max-[448px]:text-[25px] max-[640px]:leading-8 text-[40px] leading-[45px] text-[#16205F] max-w-[609px] w-full  "
               >
                 Why You Need To Hire Remote Developers
               </h5>
@@ -114,14 +114,14 @@ const HowtoStart = () => {
                   <RiArrowRightSLine data-aos="fade-up" className="w-5 h-5" />
                   <p
                     data-aos="fade-up"
-                    className="font-[Poppins]  max-[448px]:text-[17px] max-[640px]:text-[20px] font-semibold text-[23px]  2xl:text-[28px] text-[#16205F]"
+                    className="font-[Poppins]  max-[448px]:text-[17px] max-[640px]:text-[20px] font-semibold text-[23px]   text-[#16205F]"
                   >
                     {need.title}
                   </p>
                 </div>
               ))}
             </div>
-            <div className="w-full mt-[115px] max-[640px]:mt-9 relative">
+            <div className="w-full mt-[90px] max-[640px]:mt-9 relative">
               <img
                 src={img}
                 alt="img"
@@ -130,13 +130,13 @@ const HowtoStart = () => {
               <div className="w-fit h-fit absolute top-5 left-5">
                 <h6
                   data-aos="zoom-in"
-                  className="font-[Poppins] font-[275px] text-[50px]  2xl:text-[96px] text-[#FFFFFF] "
+                  className="font-[Poppins] font-[275px] text-[50px]   text-[#FFFFFF] "
                 >
                   1000+
                 </h6>
                 <p
                   data-aos="zoom-in"
-                  className="font-[Poppins] font-semibold text-[23px]  2xl:text-[28px] text-[#FFFFFF]"
+                  className="font-[Poppins] font-semibold text-[23px]  text-[#FFFFFF]"
                 >
                   Developers
                 </p>

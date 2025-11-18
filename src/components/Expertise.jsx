@@ -45,34 +45,34 @@ const Expertise = () => {
           </span>
           <h5
             data-aos="fade-up"
-            className="max-[640px]:text-[30px] max-[448px]:text-[25px] max-[640px]:leading-10 font-[Poppins] font-semibold 2xl:text-[46px] text-[40px] text-[#16205F] max-w-[741px] w-full leading-[45px] mb-2.5 mt-2.5"
+            className="max-[640px]:text-[30px] max-[448px]:text-[25px] max-[640px]:leading-10 font-[Poppins] font-semibold  text-[40px] text-[#16205F] max-w-[741px] w-full leading-[45px] mb-2.5 mt-2.5"
           >
             Hire Permanent and Remote Developers
           </h5>
           <p
             data-aos="fade-up"
-            className="max-[640px]:text-[14px] max-[448px]:text-[13px] font-[Poppins] font-normal 2xl:text-[18px] text-[15px]  text-[#16205F] max-w-[486px] w-full "
+            className="max-[640px]:text-[14px] max-[448px]:text-[13px] font-[Poppins] font-normal  text-[15px]  text-[#16205F] max-w-[486px] w-full "
           >
             From full-time remote engineering teams to hourly contractors, work
             with remote devs as needed
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-3 max-[640px]:mt-10 mt-[82px] max-[748px]:grid-cols-1 max-[1166px]:grid-cols-2">
+        <div className="grid grid-cols-4 gap-8 max-[640px]:mt-10 mt-[82px] max-[748px]:grid-cols-1 max-[1166px]:grid-cols-2">
           {expertise.map((detail) => (
             <div data-aos="zoom-in" className="" key={detail.id}>
-              <div className="w-14 h-14 2xl:w-20 2xl:h-20  bg-[#FFF856] rounded-xl p-[5px] mb-4">
+              <div className="w-14 h-14   bg-[#FFF856] rounded-xl p-[5px] mb-4">
                 <img src={detail.img} alt="img" className="w-full h-full" />
               </div>
               <div>
                 <h5
                   data-aos="fade-up"
-                  className=" font-[Poppins]  max-[448px]:text-[17px] max-[640px]:text-[20px] font-semibold 2xl:text-[28px] text-[23px] text-[#16205F]  w-full"
+                  className=" font-[Poppins]  max-[448px]:text-[17px] max-[640px]:text-[20px] font-semibold  text-[23px] text-[#16205F]  w-full"
                 >
                   {detail.title}
                 </h5>
                 <p
                   data-aos="fade-up"
-                  className="font-[Poppins] max-[640px]:text-[14px] max-[448px]:text-[13px] font-normal 2xl:text-[18px] text-[15px]  text-[#16205F]    w-full line-clamp-2"
+                  className="font-[Poppins] max-[640px]:text-[14px] max-[448px]:text-[13px] font-normal  text-[15px]  text-[#16205F]    w-full line-clamp-2"
                 >
                   {detail.description}
                 </p>

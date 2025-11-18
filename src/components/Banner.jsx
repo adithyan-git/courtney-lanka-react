@@ -5,53 +5,38 @@ import arrowright from "../assets/images/arrowright.webp";
 import { Link } from "react-router-dom";
 const Banner = () => {
   return (
-    <div className="pt-20 max-sm:pt-[55px]  px-5">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex  flex-col-reverse lg:flex-row">
-          <div className="flex flex-col justify-center lg:w-1/2 w-full">
-            <div className="flex flex-col gap-6 p-5 bg-white rounded-tr-[60px] lg:rounded-tr-[100px] lg:h-[calc(100dvh-200px)] h-auto">
+    <div className=" pt-20 max-sm:pt-[55px] h-dvh max-[1117px]:h-auto  px-5">
+      <div className="max-w-7xl w-full mx-auto  box-border  ">
+        <div className="flex  max-[1117px]:flex-col-reverse    max-[1117px]:h-auto ">
+          <div className="flex flex-col justify-center   w-[40%] max-[1117px]:w-full ">
+            <div className="flex flex-col gap-8 max-[640px]:gap-5 justify-center  w-[730px] h-[calc(100dvh_-_200px)] py-5 max-[1117px]:justify-between  max-[1117px]:h-fit   bg-white rounded-tr-[100px]  pl-2.5 mr-[-100px]  max-[1117px]:m-0  z-10 max-[1117px]:w-full">
               <h5
-                data-aos="fade-up"
-                className="font-poppins font-semibold text-[#16205F]
-            text-[30px] leading-[35px]
-            sm:text-[36px] sm:leading-[45px]
-            lg:text-[48px] lg:leading-[56px]
-            2xl:text-[64px] 2xl:leading-[78px]"
+                data-aos="fade-right"
+                className="  max-[448px]:text-[25px] max-[448px]:leading-[35px]  max-[640px]:text-[30px]   max-w-[450px] w-full font-poppins font-semibold text-[40px] text-[#16205F] leading-[45px]"
               >
                 Building dev team, Quickly and Affordably
               </h5>
 
               <p
-                data-aos="fade-up"
-                className="font-poppins text-[#16205F]
-            text-[16px] leading-[26px]
-            sm:text-[18px] sm:leading-[28px]
-            lg:text-[20px] lg:leading-[30px]
-            2xl:text-[24px]"
+                data-aos="fade-left"
+                className="max-[448px]:text-[14px] max-[448px]:leading-[23px] max-[640px]:text-[16px]   max-w-[550px] w-full font-[Poppins] font-normal text-[19px] text-[#16205F] leading-[30px]"
               >
                 We specialize in helping you build a team of expert developers,
                 testers, and leaders. We are setup to deliver long term
                 solutions, or scale to different needs quickly.
               </p>
 
-              <Link
-                className="text-[16px] font-semibold text-white bg-[linear-gradient(to_right,#FF9900,#F2CB00)]
-            hover:bg-[linear-gradient(to_right,#F2CB00,#FF9900)] transition-all duration-500
-            w-[180px] h-[50px] rounded-lg flex items-center justify-center gap-2 shadow-lg"
-              >
+              <Link className="max-[448px]:text-[14px] hover:bg-[linear-gradient(to_right,#F2CB00,#FF9900)] hover:transition-all duration-500 shadow-[0px_0px_10px_2px] shadow-[#0000001F] gap-1.5 rounded-lg font-[Poppins] font-semibold text-[16px] text-[#FFFFFF] w-[201px] h-[54px] bg-[linear-gradient(to_right,#FF9900,#F2CB00)] flex justify-center items-center">
                 Build a team
-                <img src={arrowright} alt="" className="w-5 h-5" />
+                <img src={arrowright} alt="img" className="w-5 h-5" />
               </Link>
             </div>
           </div>
-
-          <div className="lg:w-1/2 w-full ">
+          <div className="   w-[60%] max-[1117px]:w-full   ">
             <img
               src={bannerImage}
               alt="img"
-              className="w-full object-cover
-          h-[300px] sm:h-[350px] md:h-[400px] lg:h-[calc(100dvh-113px)]
-          rounded-tr-[20px] rounded-bl-[60px] lg:rounded-bl-[100px]"
+              className="w-full max-[448px]:h-auto h-[calc(100dvh_-_113px)] max-[1117px]:rounded-tr-none max-[1117px]:h-[400px]  object-cover rounded-tr-[20px] rounded-bl-[100px]"
             />
           </div>
         </div>

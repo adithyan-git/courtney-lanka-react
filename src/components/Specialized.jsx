@@ -141,7 +141,7 @@ const Specialized = () => {
           </span>
           <h5
             data-aos="fade-up"
-            className="font-[Poppins] max-[640px]:text-[30px] max-[448px]:text-[25px] max-[448px]:leading-[35px] font-semibold 2xl:text-[46px] text-[40px] text-[#16205F] max-w-[485px] w-full leading-[50px] mb-[21px] mt-[15px] max-[640px]:mt-1.5"
+            className="font-[Poppins] max-[640px]:text-[30px] max-[448px]:text-[25px] max-[448px]:leading-[35px] font-semibold text-[40px] text-[#16205F] max-w-[485px] w-full leading-[50px] mb-[21px] mt-[15px] max-[640px]:mt-1.5"
           >
             Specialized Staff We Provide
           </h5>
@@ -156,7 +156,7 @@ const Specialized = () => {
               <div className="w-[13px] h-full bg-[#FFF856] rounded-tl-xl rounded-bl-xl"></div>
               <div className="flex items-center gap-5 w-full pr-2.5 py-2">
                 <img src={staff.img} alt="img" className="w-10 h-10 " />
-                <p className="font-[Poppins] max-[448px]:text-[13px] font-semibold max-[640px]:text-[14px]  text-[15px]  2xl:text-[18px] text-[#16205F] line-clamp-2">
+                <p className="font-[Poppins] max-[448px]:text-[13px] font-semibold max-[640px]:text-[14px]  text-[15px]   text-[#16205F] line-clamp-2">
                   {staff.title}
                 </p>
               </div>

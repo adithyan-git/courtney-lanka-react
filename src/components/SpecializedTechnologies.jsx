@@ -56,7 +56,7 @@ const SpecializedTechnologies = () => {
           </h5>
           <span
             data-aos="fade-up"
-            className="text-center max-[640px]:text-[30px] max-[448px]:text-[25px] font-[Poppins] font-semibold text-[40px]  2xl:text-[46px] text-[#16205F]"
+            className="text-center max-[640px]:text-[30px] max-[448px]:text-[25px] font-[Poppins] font-semibold text-[40px]  text-[#16205F]"
           >
             Technologies
           </span>

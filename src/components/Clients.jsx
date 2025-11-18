@@ -23,7 +23,7 @@ const Clients = () => {
           </h5>
           <span
             data-aos="fade-up"
-            className="font-[Poppins] max-[448px]:text-[25px] max-[640px]:text-[30px] font-semibold text-[40px] 2xl:text-[46px] text-[#16205F] text-center "
+            className="font-[Poppins] max-[448px]:text-[25px] max-[640px]:text-[30px] font-semibold text-[40px]  text-[#16205F] text-center "
           >
             Amazing clients who trust us
           </span>

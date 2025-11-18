@@ -56,7 +56,7 @@ const ContactUs = () => {
                   <div className="mb-10">
                     <h5
                       data-aos="fade-up"
-                      className="max-[448px]:leading-[35px] font-[Poppins] max-[448px]:text-[25px] max-[640px]:text-[30px] font-semibold 2xl:text-[46px] 2xl:max-w-[526px] text-[40px] max-[640px]:leading-[45px] leading-[50px] max-w-[460px] w-full  text-[#16205F]"
+                      className="max-[448px]:leading-[35px] font-[Poppins] max-[448px]:text-[25px] max-[640px]:text-[30px] font-semibold  text-[40px] max-[640px]:leading-[45px] leading-[50px] max-w-[460px] w-full  text-[#16205F]"
                     >
                       Connect With Your Next Great Hire Today!
                     </h5>
@@ -100,7 +100,7 @@ const ContactUs = () => {
                           <label
                             data-aos="fade-up"
                             htmlFor=""
-                            className="font-[Poppins] font-semibold 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
+                            className="font-[Poppins] font-semibold  max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
                           >
                             Phone Number
                           </label>
@@ -115,7 +115,7 @@ const ContactUs = () => {
                           <label
                             data-aos="fade-up"
                             htmlFor=""
-                            className="font-[Poppins] font-semibold 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
+                            className="font-[Poppins] font-semibold max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
                           >
                             Email
                           </label>
@@ -132,7 +132,7 @@ const ContactUs = () => {
                           <label
                             data-aos="fade-up"
                             htmlFor=""
-                            className="font-[Poppins] font-semibold 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
+                            className="font-[Poppins] font-semibold  max-[640px]:text-[14px] text-[15px] text-[#16205F] mb-2.5"
                           >
                             Project Detail
                           </label>
@@ -149,7 +149,7 @@ const ContactUs = () => {
                         <input type="checkbox" className="w-[18px] h-[18px]" />
                         <p
                           data-aos="fade-up"
-                          className="font-[Poppins] font-normal 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#16205F]"
+                          className="font-[Poppins] font-normal  max-[640px]:text-[14px] text-[15px] text-[#16205F]"
                         >
                           By sending this form I confirm that I have read and
                           accept the{" "}
@@ -157,7 +157,7 @@ const ContactUs = () => {
                         </p>
                       </div>
                       <Link className="max-[448px]:w-full mt-5 gap-5 w-[250px] h-[54px] flex items-center  justify-center bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-[linear-gradient(to_right,#FCB81F,#ED7901)] rounded-lg">
-                        <p className="font-[Poppins] max-[448px]:text-[13px] font-semibold 2xl:text-[16px] max-[640px]:text-[14px] text-[15px] text-[#FFFFFF]">
+                        <p className="font-[Poppins] max-[448px]:text-[13px] font-semibold  max-[640px]:text-[14px] text-[15px] text-[#FFFFFF]">
                           GET CONSULTATION
                         </p>
                         <FaArrowRight className="text-white" />
@@ -176,25 +176,25 @@ const ContactUs = () => {
                     src={headerlogo}
                     alt="img"
                     data-aos="zoom-in"
-                    className="w-auto h-10 md:h-[50px] xl:h-[65px] 2xl:h-[83px]"
+                    className="w-auto h-10 md:h-[50px] xl:h-[65px] "
                   />
                 </div>
                 <div>
                   <h5
                     data-aos="fade-up"
-                    className="font-poppins font-normal max-sm:text-[18px] text-[20px] 2xl:text-[28px] text-[#16205F] mb-2.5"
+                    className="font-poppins font-normal max-sm:text-[18px] text-[23px]  text-[#16205F] mb-2.5"
                   >
                     Office
                   </h5>
                   <p
                     data-aos="fade-up"
-                    className="font-poppins font-normal  max-sm:text-[15px] text-[18px] 2xl:text-[24px] text-[#16205F] mb-1.5"
+                    className="font-poppins font-normal  max-sm:text-[15px] text-[18px]  text-[#16205F] mb-1.5"
                   >
                     info@courtney.lk
                   </p>
                   <span
                     data-aos="fade-up"
-                    className="font-poppins inline-block max-sm:text-[15px] font-semibold text-[18px] 2xl:text-[24px] text-[#16205F]"
+                    className="font-poppins inline-block max-sm:text-[15px] font-semibold text-[18px]  text-[#16205F]"
                   >
                     +94 011 283 744
                   </span>
@@ -205,26 +205,26 @@ const ContactUs = () => {
                   <div className="mb-4">
                     <h5
                       data-aos="fade-up"
-                      className="font-poppins font-normal  max-sm:text-[18px] text-[20px] 2xl:text-[28px] text-[#16205F]"
+                      className="font-poppins font-normal  max-sm:text-[18px] text-[20px]  text-[#16205F]"
                     >
                       Vishwa Liyanapathirana
                     </h5>
                     <span
                       data-aos="fade-up"
-                      className="inline-block font-poppins font-semibold  max-sm:text-[13px] text-[15px] 2xl:text-[16px] text-[#16205F] mb-5"
+                      className="inline-block font-poppins font-semibold  max-sm:text-[13px] text-[15px] text-[#16205F] mb-5"
                     >
                       Human Resources
                     </span>
                   </div>
                   <p
                     data-aos="fade-up"
-                    className="font-poppins font-normal  max-sm:text-[15px] text-[18px] 2xl:text-[24px] text-[#16205F] mb-1.5"
+                    className="font-poppins font-normal  max-sm:text-[15px] text-[18px]  text-[#16205F] mb-1.5"
                   >
                     vishwa@courtney.lk
                   </p>
                   <span
                     data-aos="fade-up"
-                    className="font-poppins inline-block font-semibold  max-sm:text-[15px] text-[18px] 2xl:text-[24px] text-[#16205F]"
+                    className="font-poppins inline-block font-semibold  max-sm:text-[15px] text-[18px] text-[#16205F]"
                   >
                     +94 011 283 744
                   </span>
@@ -235,26 +235,26 @@ const ContactUs = () => {
                   <div className="mb-4">
                     <h5
                       data-aos="fade-up"
-                      className="font-poppins font-normal  max-sm:text-[18px] text-[20px] 2xl:text-[28px] text-[#16205F] mb-[7px]]"
+                      className="font-poppins font-normal  max-sm:text-[18px] text-[23px]  text-[#16205F] mb-[7px]]"
                     >
                       Kasun Perera
                     </h5>
                     <span
                       data-aos="fade-up"
-                      className="inline-block font-poppins font-semibold  max-sm:text-[13px] text-[15px] 2xl:text-[16px] text-[#16205F] mb-5"
+                      className="inline-block font-poppins font-semibold  max-sm:text-[13px] text-[15px]  text-[#16205F] mb-5"
                     >
                       Funder/CEO
                     </span>
                   </div>
                   <p
                     data-aos="fade-up"
-                    className="font-poppins font-normal  max-sm:text-[15px] text-[18px] 2xl:text-[24px] text-[#16205F] mb-1.5"
+                    className="font-poppins font-normal  max-sm:text-[15px] text-[18px]  text-[#16205F] mb-1.5"
                   >
                     kasun@courtney.lk
                   </p>
                   <span
                     data-aos="fade-up"
-                    className="font-poppins font-semibold  max-sm:text-[15px] text-[18px] 2xl:text-[24px] text-[#16205F] inline-block"
+                    className="font-poppins font-semibold  max-sm:text-[15px] text-[18px]  text-[#16205F] inline-block"
                   >
                     +44 532 82820 9292
                   </span>

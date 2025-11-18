@@ -43,14 +43,14 @@ const Header = () => {
             <ul className="flex  w-[500px] justify-between items-center">
               <li className="">
                 <Link to={"/howtostart"}>
-                  <p className="font-[Poppins] font-normal 2xl:text-[18px] text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+                  <p className="font-[Poppins] font-normal  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                     How to start
                   </p>
                 </Link>
               </li>
               <li className="">
                 <Link to={"/services"} className="flex items-center  gap-1.5">
-                  <p className="font-[Poppins] font-normal 2xl:text-[18px]  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+                  <p className="font-[Poppins] font-normal   text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                     Services
                   </p>
                   <img src={arrowdown} alt="img" />
@@ -61,7 +61,7 @@ const Header = () => {
                   to={"/technologies"}
                   className="flex items-center  gap-1.5"
                 >
-                  <p className="font-[Poppins] font-normal 2xl:text-[18px]  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+                  <p className="font-[Poppins] font-normal   text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                     Technologies
                   </p>
                   <img src={arrowdown} alt="img" className="w-6 h-6" />
@@ -69,7 +69,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to={"/carees"}>
-                  <p className="font-[Poppins] font-normal 2xl:text-[18px]  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+                  <p className="font-[Poppins] font-normal   text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                     Careers
                   </p>
                 </Link>
@@ -81,7 +81,7 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <Link
               onClick={() => setOpen(true)}
-              className=" font-[Poppins] font-semibold 2xl:text-[18px]  text-[16px] text-[#16205F] hover:text-white flex gap-1.5 w-[189px] h-[41px] items-center border-2 border-[#16205F] rounded-lg justify-center hover:bg-[#16205F] transition-all duration-300"
+              className=" font-[Poppins] font-semibold   text-[16px] text-[#16205F] hover:text-white flex gap-1.5 w-[189px] h-[41px] items-center border-2 border-[#16205F] rounded-lg justify-center hover:bg-[#16205F] transition-all duration-300"
             >
               BUILD A TEAM
               <GoArrowRight
@@ -89,7 +89,7 @@ const Header = () => {
               />
             </Link>
             <Link to={"/contactus"}>
-              <span className="font-[Poppins] font-normal 2xl:text-[18px]  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+              <span className="font-[Poppins] font-normal  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                 Contact us
               </span>
             </Link>
@@ -120,7 +120,7 @@ const Header = () => {
                 <ul className="flex flex-col gap-9">
                   <li className="">
                     <Link to={"/howtostart"}>
-                      <p className="font-[Poppins] font-normal 2xl:text-[18px] text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+                      <p className="font-[Poppins] font-normal  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                         How to start
                       </p>
                     </Link>
@@ -130,7 +130,7 @@ const Header = () => {
                       to={"/services"}
                       className="flex items-center justify-between  gap-1.5"
                     >
-                      <p className="font-[Poppins] font-normal 2xl:text-[18px]  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+                      <p className="font-[Poppins] font-normal  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                         Services
                       </p>
                       <img src={arrowdown} alt="img" />
@@ -141,7 +141,7 @@ const Header = () => {
                       to={"/technologies"}
                       className="flex items-center  gap-1.5 justify-between"
                     >
-                      <p className="font-[Poppins] font-normal 2xl:text-[18px]  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+                      <p className="font-[Poppins] font-normal  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                         Technologies
                       </p>
                       <img src={arrowdown} alt="img" className="w-6 h-6" />
@@ -149,14 +149,14 @@ const Header = () => {
                   </li>
                   <li>
                     <Link to={"/carees"}>
-                      <p className="font-[Poppins] font-normal 2xl:text-[18px]  text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
+                      <p className="font-[Poppins] font-normal   text-[16px] text-[#16205F] hover:bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-clip-text hover:text-transparent transition-all duration-500">
                         Careers
                       </p>
                     </Link>
                   </li>
                   <Link
                     onClick={() => setOpen(true)}
-                    className=" font-[Poppins] font-semibold 2xl:text-[18px]  text-[16px] text-white flex gap-1.5 w-[189px] h-[41px] items-center border-2  rounded-lg justify-center bg-[linear-gradient(to_right,#FF9900,#F2CB00)]"
+                    className=" font-[Poppins] font-semibold   text-[16px] text-white flex gap-1.5 w-[189px] h-[41px] items-center border-2  rounded-lg justify-center bg-[linear-gradient(to_right,#FF9900,#F2CB00)]"
                   >
                     Build a team
                     <GoArrowRight
@@ -181,10 +181,10 @@ const Header = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <div>
-              <h2 className=" max-sm:text-[30px] max-md:text-[35px] max-2xl:text-[40px] 2xl:text-[46px] font-poppins text-[#16205F] font-semibold mb-2">
+              <h2 className=" max-sm:text-[30px] max-md:text-[35px]  text-[40px] font-poppins text-[#16205F] font-semibold mb-2">
                 Build a team
               </h2>
-              <p className="max-sm:text-[13px] max-md:text-[14px] max-2xl:text-[15px] 2xl:text-[18px] font-poppins text-[#16205F] font-normal mb-2">
+              <p className="max-sm:text-[13px] max-md:text-[14px]  text-[15px] font-poppins text-[#16205F] font-normal mb-2">
                 We specialize in helping you build a team.
               </p>
             </div>
@@ -193,7 +193,7 @@ const Header = () => {
                 onClick={() => changeColor(1)}
                 className={`rounded-tl-lg rounded-bl-lg flex-1 h-[54px] ${
                   bgColor === 1 ? "bg-[#F99600]" : "bg-[FFFFFF]"
-                }  flex items-center justify-center max-sm:text-[13px] max-2xl:text-[14px] 2xl:text-[16px] font-poppins ${
+                }  flex items-center justify-center max-sm:text-[13px]  text-[14px] font-poppins ${
                   bgColor === 1 ? "text-[#FFFFFF]" : "text-[#8A8A8A]"
                 }  font-semibold`}
               >
@@ -201,9 +201,9 @@ const Header = () => {
               </div>
               <div
                 onClick={() => changeColor(2)}
-                className={`rounded-tr-lg rounded-br-lg flex-1 max-sm:text-[13px] max-2xl:text-[14px] w-full h-[54px]  ${
+                className={`rounded-tr-lg rounded-br-lg flex-1 max-sm:text-[13px]  text-[14px] w-full h-[54px]  ${
                   bgColor === 2 ? "bg-[#F99600]" : "bg-[FFFFFF]"
-                } flex items-center justify-center text-[14px] 2xl:text-[16px] font-poppins  ${
+                } flex items-center justify-center text-[14px]  font-poppins  ${
                   bgColor === 2 ? "text-[#FFFFFF]" : "text-[#8A8A8A]"
                 } font-semibold`}
               >
@@ -218,7 +218,7 @@ const Header = () => {
                     <div className="flex flex-col">
                       <label
                         htmlFor=""
-                        className="font-poppins font-semibold max-sm:text-[13px] max-md:text-[14px] max-2xl:text-[15px] 2xl:text-[16px] text-[#16205F] mb-2.5"
+                        className="font-poppins font-semibold max-sm:text-[13px] max-md:text-[14px]  text-[15px] text-[#16205F] mb-2.5"
                       >
                         Company
                       </label>
@@ -231,7 +231,7 @@ const Header = () => {
                     <div className="flex flex-col">
                       <label
                         htmlFor=""
-                        className="font-poppins font-semibold max-sm:text-[13px] max-md:text-[14px] max-2xl:text-[15px] 2xl:text-[16px] text-[#16205F] mb-2.5"
+                        className="font-poppins font-semibold max-sm:text-[13px] max-md:text-[14px]  text-[15px] text-[#16205F] mb-2.5"
                       >
                         Your Name
                       </label>
@@ -249,7 +249,7 @@ const Header = () => {
                     <div className="flex flex-col">
                       <label
                         htmlFor=""
-                        className="font-poppins font-semibold max-sm:text-[13px] max-md:text-[14px] max-2xl:text-[15px] 2xl:text-[16px] text-[#16205F] mb-2.5"
+                        className="font-poppins font-semibold max-sm:text-[13px] max-md:text-[14px]  text-[15px] text-[#16205F] mb-2.5"
                       >
                         label
                       </label>
@@ -262,7 +262,7 @@ const Header = () => {
                     <div className="flex flex-col">
                       <label
                         htmlFor=""
-                        className="font-poppins font-semibold max-sm:text-[13px] max-md:text-[14px] max-2xl:text-[15px] 2xl:text-[16px] text-[#16205F] mb-2.5"
+                        className="font-poppins font-semibold max-sm:text-[13px] max-md:text-[14px] text-[15px]  text-[#16205F] mb-2.5"
                       >
                         label
                       </label>

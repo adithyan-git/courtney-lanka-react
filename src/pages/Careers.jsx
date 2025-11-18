@@ -94,7 +94,7 @@ const Careers = () => {
                 <div className="mb-5 border-b  border-[#BBBBBB] pb-2.5">
                   <h6
                     data-aos="fade-up"
-                    className="font-[Poppins] font-semibold 2xl:text-[18px] text-[15px] text-[#16205F]"
+                    className="font-[Poppins] font-semibold  text-[15px] text-[#16205F]"
                   >
                     ROLE
                   </h6>
@@ -102,13 +102,13 @@ const Careers = () => {
                 <div>
                   <h6
                     data-aos="fade-up"
-                    className="font-[Poppins] font-semibold max-text-[18px]  text-[23px] 2xl:text-[28px] text-[#16205F] mb-2.5"
+                    className="font-[Poppins] font-semibold max-text-[18px]  text-[23px]  text-[#16205F] mb-2.5"
                   >
                     Senior Web Full Stack Developer
                   </h6>
                   <p
                     data-aos="fade-up"
-                    className="font-[Poppins] font-normal max-sm:text-[13px] text-[15px] 2xl:text-[18px] text-[#16205F] mb-5"
+                    className="font-[Poppins] font-normal max-sm:text-[13px] text-[15px]  text-[#16205F] mb-5"
                   >
                     Seniority in development is not just about how much time you
                     have already spent behind the computer screen. It's the way
@@ -134,7 +134,7 @@ const Careers = () => {
                 <div className="mb-5 border-b  border-[#BBBBBB] pb-2.5">
                   <h6
                     data-aos="fade-up"
-                    className="font-[Poppins] font-semibold text-[14px] sm:text-[15px] 2xl:text-[18px]  text-[#16205F]"
+                    className="font-[Poppins] font-semibold text-[14px] sm:text-[15px] text-[#16205F]"
                   >
                     SKILLS
                   </h6>
@@ -156,7 +156,7 @@ const Careers = () => {
                 <div className="mb-5 border-b  border-[#BBBBBB] pb-2.5">
                   <h6
                     data-aos="fade-up"
-                    className="font-[Poppins] font-semibold text-[14px] sm:text-[15px] 2xl:text-[18px]  text-[#16205F]"
+                    className="font-[Poppins] font-semibold text-[14px] sm:text-[15px]   text-[#16205F]"
                   >
                     LOCATION
                   </h6>
@@ -165,7 +165,7 @@ const Careers = () => {
                   <div className="mb-2.5">
                     <h6
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[18px] text-[13px] sm:text-[15px] text-[#16205F]"
+                      className="font-[Poppins] font-semibold  text-[13px] sm:text-[15px] text-[#16205F]"
                     >
                       Remote ,
                     </h6>
@@ -173,12 +173,12 @@ const Careers = () => {
                   <div className="mb-2.5">
                     <h6
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[18px] text-[15px] text-[#16205F]"
+                      className="font-[Poppins] font-semibold  text-[15px] text-[#16205F]"
                     >
                       Ostrava
                       <span
                         data-aos="fade-up"
-                        className="pl-1 font-[Poppins] font-normal 2xl:text-[18px] text-[13px] sm:text-[15px] text-[#16205F]"
+                        className="pl-1 font-[Poppins] font-normal  text-[13px] sm:text-[15px] text-[#16205F]"
                       >
                         - Czech Republic,
                       </span>
@@ -187,10 +187,10 @@ const Careers = () => {
                   <div className="mb-2.5">
                     <h6
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[18px] text-[15px] text-[#16205F]"
+                      className="font-[Poppins] font-semibold  text-[15px] text-[#16205F]"
                     >
                       Brno
-                      <span className="pl-1 font-[Poppins] font-normal 2xl:text-[18px] text-[15px] text-[#16205F]">
+                      <span className="pl-1 font-[Poppins] font-normal  text-[15px] text-[#16205F]">
                         - Czech Republic,
                       </span>
                     </h6>
@@ -198,12 +198,12 @@ const Careers = () => {
                   <div className="mb-2.5">
                     <h6
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[18px] text-[15px] text-[#16205F]"
+                      className="font-[Poppins] font-semibold  text-[15px] text-[#16205F]"
                     >
                       Barcelona
                       <span
                         data-aos="fade-up"
-                        className="pl-1 font-[Poppins] font-normal 2xl:text-[18px] text-[15px] text-[#16205F]"
+                        className="pl-1 font-[Poppins] font-normal text-[15px] text-[#16205F]"
                       >
                         - Spain,
                       </span>
@@ -212,12 +212,12 @@ const Careers = () => {
                   <div className="mb-2.5">
                     <h6
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[18px] text-[15px] text-[#16205F]"
+                      className="font-[Poppins] font-semibold  text-[15px] text-[#16205F]"
                     >
                       Prague
                       <span
                         data-aos="fade-up"
-                        className="pl-1  font-[Poppins] font-normal 2xl:text-[18px] text-[15px] text-[#16205F]"
+                        className="pl-1  font-[Poppins] font-normal  text-[15px] text-[#16205F]"
                       >
                         - Czech Republic,
                       </span>
@@ -226,12 +226,12 @@ const Careers = () => {
                   <div className="mb-2.5">
                     <h6
                       data-aos="fade-up"
-                      className="font-[Poppins] font-semibold 2xl:text-[18px] text-[15px] text-[#16205F]"
+                      className="font-[Poppins] font-semibold  text-[15px] text-[#16205F]"
                     >
                       Zlín
                       <span
                         data-aos="fade-up"
-                        className="pl-1 font-[Poppins] font-normal 2xl:text-[18px] text-[15px] text-[#16205F]"
+                        className="pl-1 font-[Poppins] font-normal  text-[15px] text-[#16205F]"
                       >
                         - Czech Republic,
                       </span>

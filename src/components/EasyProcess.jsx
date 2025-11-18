@@ -39,13 +39,13 @@ const EasyProcess = () => {
           </h6>
           <h5
             data-aos="fade-up"
-            className="max-[640px]:text-[30px] max-[448px]:text-[25px] max-[640px]:mt-0.5 font-[Poppins] font-semibold text-[40px] 2xl:text-[46px] text-[#16205F] text-center mt-1.5"
+            className="max-[640px]:text-[30px] max-[448px]:text-[25px] max-[640px]:mt-0.5 font-[Poppins] font-semibold text-[40px]  text-[#16205F] text-center mt-1.5"
           >
             Easy Process
           </h5>
           <p
             data-aos="fade-up"
-            className="max-[640px]:text-[14px] max-[448px]:text-[13px] 2xl:max-w-[456px] max-w-[453px] font-[Poppins] font-normal text-[15px] 2xl:text-[18px]  text-[#16205F] text-center mt-1.5"
+            className="max-[640px]:text-[14px] max-[448px]:text-[13px]  max-w-[453px] font-[Poppins] font-normal text-[15px]   text-[#16205F] text-center mt-1.5"
           >
             We specialize in helping you build a team of expert developers,
             testers, and leaders.
@@ -61,19 +61,19 @@ const EasyProcess = () => {
                 <img
                   src={process.img}
                   alt="img"
-                  className="w-[90px] h-[90px] 2xl:w-[138.00003051757812px] 2xl:h-[138.02777099609375px] hover:rotate-y-360 hover:duration-3000"
+                  className="w-[90px] h-[90px]   hover:rotate-y-360 hover:duration-3000"
                 />
               </div>
               <div className="flex items-center gap-2.5">
                 <h6
                   data-aos="zoom-in"
-                  className="font-[Poppins] max-[448px]:text-[25px] 2xl:text-[46px] max-[640px]:text-[30px]  font-semibold text-[35px] text-[#16205F]"
+                  className="font-[Poppins] max-[448px]:text-[25px] max-[640px]:text-[30px]  font-semibold text-[35px] text-[#16205F]"
                 >
                   0{process.id}
                 </h6>
                 <p
                   data-aos="zoom-in"
-                  className="font-[Poppins] font-semibold max-[448px]:text-[17px] 2xl:text-[28px] max-[640px]:text-[20px] text-[23px] text-[#16205F]"
+                  className="font-[Poppins] font-semibold max-[448px]:text-[17px]  max-[640px]:text-[20px] text-[23px] text-[#16205F]"
                 >
                   {process.title}
                 </p>
