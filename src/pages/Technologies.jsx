@@ -21,7 +21,7 @@ import spring from "../assets/images/spring.webp";
 import ios from "../assets/images/ios.webp";
 import reactnative from "../assets/images/reactnative.webp";
 import flutter from "../assets/images/flutter.webp";
-import ionic from "../assets/images/ionic.webp";
+import ionic from "../assets/images/Ionic.webp";
 import mongodb from "../assets/images/mongodb.webp";
 
 const Technologies = () => {
@@ -221,6 +221,7 @@ const Technologies = () => {
             </div>
             {categories.map((category) => (
               <div
+                key={category.id}
                 className={`cursor-pointer font-[Poppins] font-semibold max-[426px]:text-[13px] text-[15px] text-[#9F9F9F] p-2.5 rounded-xl  ${
                   showColor === category.id ? "bg-[#FFF856]" : "bg-transparent"
                 } ${
