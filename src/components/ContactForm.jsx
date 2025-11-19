@@ -1,8 +1,28 @@
-import React from "react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 import contactimg from "../assets/images/contactimg.webp";
-import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 const ContactForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_junlpli", "template_ixgvrpg", form.current, {
+        publicKey: "yNsC-5T1zRwypqJpl",
+      })
+      .then(
+        () => {
+          alert("form submitted  successfully");
+          form.current.reset();
+        },
+        (error) => {
+          alert("faild", error.text);
+        }
+      );
+  };
   return (
     <div className="w-full">
       <div className="grid grid-cols-12 max-[994px]:grid-cols-2">
@@ -26,7 +46,7 @@ const ContactForm = () => {
               </h5>
             </div>
             <div>
-              <form action="">
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="flex gap-5 mb-5 max-[640px]:flex-col">
                   <div className="flex flex-col w-full">
                     <label
@@ -38,7 +58,9 @@ const ContactForm = () => {
                     </label>
                     <input
                       type="text"
+                      name="company_name"
                       placeholder="company"
+                      required
                       className="py-2.5 pl-2 border max-[640px]:text-[13px]  border-[#C5E0FF] rounded-lg focus:outline-0 font-[Poppins] font-normal text-[14px] text-[#00000080]"
                     />
                   </div>
@@ -52,7 +74,9 @@ const ContactForm = () => {
                     </label>
                     <input
                       type="text"
+                      name="user_name"
                       placeholder="Your Name"
+                      required
                       className="py-2.5 pl-2 border  border-[#C5E0FF] max-[640px]:text-[13px] rounded-lg focus:outline-0 font-[Poppins] font-normal text-[14px] text-[#00000080]"
                     />
                   </div>
@@ -68,7 +92,9 @@ const ContactForm = () => {
                     </label>
                     <input
                       type="text"
+                      name="phone_number"
                       placeholder="Phone Number"
+                      required
                       className="py-2.5 pl-2 border  border-[#C5E0FF] rounded-lg max-[640px]:text-[13px] focus:outline-0 font-[Poppins] font-normal text-[14px] text-[#00000080]"
                     />
                   </div>
@@ -82,7 +108,9 @@ const ContactForm = () => {
                     </label>
                     <input
                       type="email"
+                      name="user_email"
                       placeholder="Email"
+                      required
                       className="py-2.5 pl-2 border  border-[#C5E0FF] max-[640px]:text-[13px] rounded-lg focus:outline-0 font-[Poppins] font-normal text-[14px] text-[#00000080]"
                     />
                   </div>
@@ -97,9 +125,10 @@ const ContactForm = () => {
                       Project Detail
                     </label>
                     <textarea
-                      name=""
+                      name="project_details"
                       id=""
                       placeholder="Project Detail"
+                      required
                       className="py-2.5 pl-2 border  border-[#C5E0FF] rounded-lg focus:outline-0 font-[Poppins] max-[640px]:text-[13px] font-normal text-[14px] text-[#00000080]"
                     ></textarea>
                   </div>
@@ -114,12 +143,15 @@ const ContactForm = () => {
                     the <span className="font-semibold">Privacy Policy</span>
                   </p>
                 </div>
-                <Link className="max-[448px]:w-full mt-5 gap-5 w-[250px] h-[54px] flex items-center  justify-center bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-[linear-gradient(to_right,#FCB81F,#ED7901)] rounded-lg">
+                <button
+                  type="submit"
+                  className="max-[448px]:w-full mt-5 gap-5 w-[250px] h-[54px] flex items-center  justify-center bg-[linear-gradient(to_right,#ED7901,#FCB81F)] hover:bg-[linear-gradient(to_right,#FCB81F,#ED7901)] rounded-lg"
+                >
                   <p className="font-[Poppins] max-[448px]:text-[13px] font-semibold  max-[640px]:text-[14px] text-[15px] text-[#FFFFFF]">
                     GET CONSULTATION
                   </p>
                   <FaArrowRight className="text-white" />
-                </Link>
+                </button>
               </form>
             </div>
           </div>

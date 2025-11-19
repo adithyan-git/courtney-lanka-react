@@ -1,9 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import logo from "../assets/images/Logo.webp";
-import smallretangle from "../assets/images/smallretangle.webp";
-import largeretangle from "../assets/images/largeretangle.webp";
+import whatsapp from "../assets/images/whatsapp.webp";
+import instagramlogo from "../assets/images/instagramlogo.webp";
+import twitterlogo from "../assets/images/twitterlogo.webp";
+import youtubelogo from "../assets/images/youtublogo.webp";
+import telegram from "../assets/images/telegram.webp";
+import facebook from "../assets/images/facebooklogo.webp";
 
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import "swiper/css";
@@ -58,88 +61,57 @@ const Clients = () => {
             }}
           >
             <SwiperSlide>
-              <div className=" flex flex-col h-fit justify-center    items-center">
-                <div className="w-[77px] h-[66px]  flex flex-col justify-center p-1.5 items-center relative">
-                  <img src={logo} alt="img" className="w-[77px] h-7  z-10" />
-                  <img
-                    src={largeretangle}
-                    alt="img"
-                    className="absolute left-0 h-full w-[35px]"
-                  />
-                  <img
-                    src={smallretangle}
-                    alt="img"
-                    className="absolute right-0 bottom-0 h-[30px] w-[35px]"
-                  />
-                </div>
+              <div className="  flex justify-center items-center">
+                <img
+                  src={whatsapp}
+                  alt="img"
+                  className=" w-auto h-[90px] object-cover"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" flex flex-col h-fit justify-center    items-center">
-                <div className="w-[77px] h-[66px]  flex flex-col justify-center p-1.5 items-center relative">
-                  <img src={logo} alt="img" className="w-[77px] h-7  z-10" />
-                  <img
-                    src={smallretangle}
-                    alt="img"
-                    className="absolute right-0 top-0 h-[30px] w-[35px]"
-                  />
-                  <img
-                    src={smallretangle}
-                    alt="img"
-                    className="absolute right-0 bottom-0 h-[30px] w-[35px]"
-                  />
-                </div>
+              <div className="  flex justify-center items-center">
+                <img
+                  src={youtubelogo}
+                  alt="img"
+                  className=" w-auto h-[90px] object-cover"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" flex flex-col h-fit justify-center   items-center ">
-                <div className="w-[77px] h-[66px]  flex flex-col justify-center p-1.5 items-center relative">
-                  <img src={logo} alt="img" className="w-[77px] h-7  z-10" />
-                  <img
-                    src={largeretangle}
-                    alt="img"
-                    className="absolute left-0 h-full w-[35px]"
-                  />
-                  <img
-                    src={smallretangle}
-                    alt="img"
-                    className="absolute right-0 top-0 h-[30px] w-[35px]"
-                  />
-                </div>
+              <div className="  flex justify-center items-center">
+                <img
+                  src={twitterlogo}
+                  alt="img"
+                  className=" w-auto h-[90px] object-cover"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" flex flex-col h-fit justify-center   items-center ">
-                <div className="w-[77px] h-[66px]  flex flex-col justify-center p-1.5 items-center relative">
-                  <img src={logo} alt="img" className="w-[77px] h-7  z-10" />
-                  <img
-                    src={largeretangle}
-                    alt="img"
-                    className="absolute left-0 h-full w-[35px]"
-                  />
-                  <img
-                    src={smallretangle}
-                    alt="img"
-                    className="absolute right-0 bottom-0 h-[30px] w-[35px]"
-                  />
-                </div>
+              <div className="  flex justify-center items-center">
+                <img
+                  src={telegram}
+                  alt="img"
+                  className=" w-auto h-[90px] object-cover"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" flex flex-col h-fit justify-center   items-center">
-                <div className="w-[77px] h-[66px]  flex flex-col justify-center p-1.5 items-center relative">
-                  <img src={logo} alt="img" className="w-[77px] h-7  z-10" />
-                  <img
-                    src={largeretangle}
-                    alt="img"
-                    className="absolute left-0 h-full w-[35px]"
-                  />
-                  <img
-                    src={smallretangle}
-                    alt="img"
-                    className="absolute right-0 top-0 h-[30px] w-[35px]"
-                  />
-                </div>
+              <div className="  flex justify-center items-center">
+                <img
+                  src={instagramlogo}
+                  alt="img"
+                  className=" w-auto h-[90px] object-cover"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="  flex justify-center items-center">
+                <img
+                  src={facebook}
+                  alt="img"
+                  className=" w-auto h-[90px] object-cover"
+                />
               </div>
             </SwiperSlide>
           </Swiper>
